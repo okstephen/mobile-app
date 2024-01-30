@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: black;
+    padding-bottom: 5px;
+}
+section #nav {
+    padding-bottom: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 240px;
+    padding: 10px 20px;
+    color: white;
+    align-items: center;
+}
+
+nav p {
+    font-size: 0.8rem;
+}
+
+nav .icons {
+    display: flex;
+    gap: 1px;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+/* nav .icons div {
+    display: flex;
+    align-items: center;
+    position: relative;
+} */
+
+/* nav .icons div p {
+    font-size: 0.5rem;
+    position: absolute;
+    color: blue;
+    top: 33%;
+    left: 25%;
+} */
+
+header .first-roll {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    gap: 20px;
+}
+
+.first-roll div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.first-roll div p{
+    font-size: 0.6rem;
+    color: white;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+.first-roll .skype {
+    position: relative;
+}
+
+.first-roll .skype iconify-icon {
+    font-size: 1.4rem;
+    color: red;
+    position: absolute;
+    top: -7%;
+    left: 65%;
+}
+
+input[type="search"] {
+    border: 1px solid rgb(36, 34, 34); 
+    background-color: rgb(36, 34, 34);
+    width: 70px;
+    border-radius: 10px;
+    padding: 5px 0px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+header .search {
+    position: relative;
+}
+
+header iconify-icon {
+    color: white;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+::placeholder {
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+header .footer {
+    border-radius: 15px;
+    background-color: rgb(36, 34, 34);
+    padding: 10px 15px;
+}
+
+header .footer div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.msg {
+    position: relative;
+}
+
+.msg p {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 1px 2px;
+    position: absolute;
+    font-size: 0.6rem;
+    top: -10%;
+    right: -10%;
+} 
